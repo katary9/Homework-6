@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ul, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #212353;
+    cursor: pointer;
+}
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+    background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
+    width: 100%;
+}
+.header {
+    width: 88%;
+    margin: auto;
+    padding-top: 50px;
+    color: #212353;
+
+    height: 754px;
+    background-image: url(../img/image1\ 1.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 130px;
+}
+.logo{
+    width: 49px;
+    height: 35px;
+
+}
+.nav_list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 322px;
+
+}
+.nav_list li {
+    padding-right: 42px;
+    
+
+}
+li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #4B5D68;
+}
+
+.li-list {
+    font-weight: 800;
+}
+.demo {
+    width: 210px;
+    height: 60px;
+    margin-right: 128px;
+    margin-left: 250px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    border: none;
+}
+.demo img {
+    position: relative;
+    left: 15px;
+}
+
+ /* header container*/
+
+.heading-content {
+    
+    display: flex;
+    flex-direction: column;
+
+    
+    
+}
+.title-heading {
+    max-width: 645px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 110%;
+}
+.text-heading {
+    margin-top: 50px;
+    max-width: 370px;
+    max-height: 120px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%
+}
+.button-heading {
+    margin-top: 50px;
+    width: 170px;
+    height: 60px;
+    background: #9C69E2;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    color: #FFFFFF;
+
+}
