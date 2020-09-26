@@ -24,7 +24,7 @@ body {
     margin: auto;
     padding-top: 50px;
     color: #212353;
-
+    
     height: 754px;
     background-image: url(../img/image1\ 1.png);
     position: relative;
@@ -70,10 +70,10 @@ li {
 .demo {
     width: 210px;
     height: 60px;
-    margin-right: 128px;
+    margin-right: 80px;
     margin-left: 250px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 16px;
     line-height: 160%;
     background: #FFFFFF;
@@ -332,3 +332,156 @@ slaider-container
  .vector {
      margin-left: 20px;
  }
+
+ /* footer-container */
+
+ .footer {
+    width: 88%;
+    margin: auto;
+    padding-top: 99px;
+    color: #212353;
+ }
+ /*  1 */
+ .footer-menu {
+      display: flex;
+      justify-content: space-between;
+      
+ }
+ .title_footer {
+     display: flex;
+     flex-direction: column;
+ }
+
+.title_info{
+    font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 130%;
+}
+.title_text {
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+color: #4B5D68;
+margin-top: -30px;
+
+}
+.button_menu {
+    width: 170px;
+height: 60px;
+border: none;
+background: #F063B8;
+border-radius: 50px;
+
+
+}
+.button_menu a{
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 160%;
+color: #FFFFFF;
+}
+
+ .button_request {
+    width: 210px;
+    height: 60px;
+    margin-right: 80px;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    border: none;
+}
+.button_request img {
+    position: relative;
+    left: 15px;
+}
+
+/*  2 */
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 160px;
+    max-width: 1118px;;
+    
+    
+}
+.company {
+    
+
+}
+.logp_row {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 67px;
+}
+.logo_img {
+    padding-right: 20px;
+    
+}
+.logo_footer{
+    
+   
+}
+.adress_footer {
+    font-style: normal;
+    font-weight: 500;
+font-size: 16px;
+line-height: 180%;
+
+
+}
+.adress {
+    
+    padding-top: 10px;
+    font-weight: normal;
+font-size: 14px;
+line-height: 180%;
+
+}
+.about {
+
+}
+.name_column{
+    margin-bottom: 30px;
+    
+font-weight: 900;
+font-size: 16px;
+line-height: 160%;
+}
+.footer-list_item {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 40px;
+    cursor: pointer;
+}
+.media-list {
+    display: flex;
+}
+
+.media-list_item {
+    padding-right: 10px;
+}
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 118px;
+    margin-bottom: 93px;
+    max-width: 1118px;;
+}
+.copyright {
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+}
