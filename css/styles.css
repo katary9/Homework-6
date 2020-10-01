@@ -25,6 +25,7 @@ body {
     padding-top: 50px;
     color: #212353;
     
+    
     height: 754px;
     background-image: url(../img/image1\ 1.png);
     position: relative;
@@ -127,6 +128,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
     max-width: 1117px;
     background: rgba(240, 99, 184, 0.15);
     border-radius: 50px;
@@ -245,6 +247,7 @@ slaider-container
     border-radius: 50px;
     height: 709px;
     margin-bottom: 252px;
+    margin: auto;
 }
 .row_content {
     display: flex;
@@ -387,7 +390,8 @@ color: #FFFFFF;
     justify-content: space-between;
     align-items: baseline;
     margin-top: 160px;
-    max-width: 1118px;;
+    max-width: 1118px;
+    
     
     
 }
